@@ -1,2 +1,3 @@
 # Information Security
- freeCodeCamp - Information Security Certification - course projects.
+
+Course is available at: https://www.freecodecamp.org/learn/information-security
