@@ -14,7 +14,7 @@ const PLAYER_SIZE = 20;
 
 // If key is pressed down sent it to server
 function keydown(event) {
-  // Send only WSAD and arrow keys codes every 100ms
+  // Send only WSAD and arrow keys codes
   if ([87, 83, 65, 68, 38, 40, 37, 39].includes(event.keyCode)) {
     socket.emit('playerMoveCommand', event.keyCode)
   };
